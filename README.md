@@ -3,7 +3,7 @@ This repository explain how to perform unit testing with unittest, function and 
 
 ## Outline
 - Function
-- Object oriented programming Class, object and method.
+- Object Oriented Programming (Class, Object and Method)
 - Function Argument And Parameter
 - Txt File (open, Read and Close)
 - os.path, os.remove, os.mkdir
@@ -93,15 +93,23 @@ import os
 - Opening a file refers to getting the file ready either for reading or for writing.
 - This function returns a file object and takes two arguments, one that accepts the file name and another that accepts the mode (Access Mode).
 - The file should exist in the same directory as the Python script, otherwise, full address of the file should be written.
-
+````
+import os
+#open the file using open() function
+data = open('heedo.txt', 'r')
+````
 #### read()
 - The read() function reads from an open file.
 - As for readlines() returns a list containing each  line in the file as a list item.
-
+````
+print(data.read())
+````
 #### close()
 - It is a standard practice to close an opened file as a closed file reduces the risk of being unwarrantedly modified or read.
 - The close() method can be called more than once and if any operation is performed on a closed file it raises a ValueError.
-
+````
+data.close()
+````
 ### os and io modules
 The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
 ```
