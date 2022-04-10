@@ -1,4 +1,4 @@
-# Perform Unit Testing and Operation Using Modules and Tools
+# Python Fundamental: Perform Unit Testing and Operation Using Modules and Tools
 This repository explain how to perform unit testing with unittest, function and method, how to perform basic operations by using built-in modules and solve complex computing problems by using built-in modules.
 
 ## Outline
@@ -14,6 +14,11 @@ This repository explain how to perform unit testing with unittest, function and 
 
 ## Learning Materials
 ### Functions
+```
+def pangkat (x):
+    kuadrat = x**2
+    return kuadrat
+```
 - In mathematics, a function is a process that balances between an input (input) and an output (output).
 - In Python, apart from relational functions, functions are also a way to organize reusable code.
 - By default, Python will position each parameter in the order in which it was registered at the time it was defined, and must be called in that order.
@@ -21,6 +26,15 @@ This repository explain how to perform unit testing with unittest, function and 
 
 ### Object Oriented Programming (OOP)
 - Object Oriented Programming (OOP) is a programming paradigm that is oriented to the concepts of class (class) and object (object). This concept is often used in compiling applications into simple and reusable code
+````
+class calculator:
+    def __init__(self, number1, number2):
+       self.number1 = number1
+       self.number2 = number2
+    def increase  (self):
+      self.plus = self.number1 + self.number2
+      return self.plus  
+````
 #### Class
 The definition of a class uses the class syntax as well as the definition of a function that uses the def syntax, then needs to be called (executed) before it can be used and has an effect on the program.
 - Object (object: an instance of a class) Instantion of a class, using function notation i.e. with less opening then closing parenthesis, will produce an object
