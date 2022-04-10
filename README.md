@@ -72,6 +72,9 @@ syntax prefix * is used as an iterable marker in Python, while prefix ** is used
 - Lambda functions are self-contained, have their own namespace, and cannot access any values ​​other than those in parameter lists and global variables
 
 ### Open, Read and Close
+```
+import os
+```
 #### open()
 - Opening a file refers to getting the file ready either for reading or for writing.
 - This function returns a file object and takes two arguments, one that accepts the file name and another that accepts the mode (Access Mode).
@@ -87,8 +90,13 @@ syntax prefix * is used as an iterable marker in Python, while prefix ** is used
 
 ### os and io modules
 The OS module in Python provides functions for creating and removing a directory (folder), fetching its contents, changing and identifying the current directory, etc.
-
+```
+import os
+```
 As for python io module allows us to manage the file-related input and output operations. The advantage of using the IO module is that the classes and functions available allows us to extend the functionality to enable writing to the Unicode data.
+```
+import io
+```
 
 #### os.path()
 - The module called os contains functions to get information on local directories, files, processes, and environment variables.
@@ -102,18 +110,30 @@ As for python io module allows us to manage the file-related input and output op
 - os.mkdir() method in Python is  used for creating or making a new directory. This method raise FileExistsError if the directory to be created already exists.
 
 ### math library
+```
+import math
+```
 math or mathematical function is a module provides access to the mathematical functions defined by the C standard. The math module has many functions which you can learn about here: https://docs.python.org/3/library/math.html 
 
 ### datetime()
+```
+import datetime
+```
 - A date in Python is not a data type of its own, but we can import a module named datetime to work with dates as date objects.
 - When we execute datetime, the date contains year, month, day, hour, minute, second, and microsecond
 - The strftime() Method. is a method for formatting date objects into readable strings. The method is called strftime(), and takes one parameter, format, to specify the format of the returned string.
 - A reference of all the legal format codes: https://docs.python.org/3/library/datetime.html
 
 ### Random Library with radint()
+```
+form random import radint
+```
 randint() is an inbuilt function of the random module in Python3. The random module gives access to various useful functions and one of them being able to generate random numbers, which is randint().
 
 ### sys module
+```
+import sys
+```
 The python sys (System-specific parameters and functions) module provides functions and variables which are used to manipulate different parts of the Python Runtime Environment. It lets us access system-specific parameters and functions.
 
 The sys library has many functions, one of them is sys.exc_info() wich returns an  information about the exception that is currently being handled.  Other functions can be checked here https://docs.python.org/3/library/sys.html
